@@ -27,7 +27,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
 
-      window.location="https://www.mger.co";
+    window.location="https://www.mger.co";
     document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
