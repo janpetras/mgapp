@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.android.mger" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>MGER - Photo sharing made easy</name>
+    <name>MGER</name>
     <description>
-        MGER. The free image upload service.
-Drag and drop anywhere you want and start uploading your images now. Fast, secure, unlimited and forever free.
-
-
+        MGER. The free image upload service. Drag and drop anywhere you want and start uploading your images now. Fast, secure, unlimited and forever free.
     </description>
     <author email="inbox@mger.co" href="https://mger.co">
         MGER Team

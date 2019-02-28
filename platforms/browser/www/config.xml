@@ -25,5 +25,5 @@ Drag and drop anywhere you want and start uploading your images now. Fast, secur
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="24" />
 </widget>
