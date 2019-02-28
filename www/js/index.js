@@ -26,8 +26,6 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-
-    var ref = cordova.InAppBrowser.open('https://mger.co', '_blank', 'location=no');
     document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
@@ -36,9 +34,11 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        window.open = cordova.InAppBrowser.open;
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+        window.open('https://mger.co', '_blank', 'location=no,toolbar=no');
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
