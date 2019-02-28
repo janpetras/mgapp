@@ -63,6 +63,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.android.mger"
+        },
+        "cordova-plugin-fullscreen": {
+            "PACKAGE_NAME": "com.android.mger"
         }
     },
     "dependent_plugins": {

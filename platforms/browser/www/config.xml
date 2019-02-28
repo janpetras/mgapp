@@ -6,12 +6,9 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>MGER - Photo sharing made easy</name>
+    <name>MGER</name>
     <description>
-        MGER. The free image upload service.
-Drag and drop anywhere you want and start uploading your images now. Fast, secure, unlimited and forever free.
-
-
+        MGER. The free image upload service. Drag and drop anywhere you want and start uploading your images now. Fast, secure, unlimited and forever free.
     </description>
     <author email="inbox@mger.co" href="https://mger.co">
         MGER Team
@@ -24,6 +21,7 @@ Drag and drop anywhere you want and start uploading your images now. Fast, secur
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="Fullscreen" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="24" />
 </widget>
