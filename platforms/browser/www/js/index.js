@@ -27,7 +27,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
 
-    window.open=('http://mger.co', '_blank', 'location=no,toolbar=no');
+    var ref = cordova.InAppBrowser.open('https://mger.co', '_blank', 'location=no');
     document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
